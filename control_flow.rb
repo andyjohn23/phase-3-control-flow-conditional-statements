@@ -20,23 +20,35 @@ require "pry"
 #   end 
 # end
 
-binding.pry
+# binding.pry
 
-def fizzbuzz(num)
-  if num 3 == 0 && num 5 == 0
-    "Fizzbuzz"
-  elsif num 3 == 0
-    "Fizz"
-  elsif num 5 == 0
-    "Buzz"
+# def fizzbuzz(num)
+#   if num 3 == 0 && num 5 == 0
+#     "Fizzbuzz"
+#   elsif num 3 == 0
+#     "Fizz"
+#   elsif num 5 == 0
+#     "Buzz"
+#   else
+#     num
+#   end
+# end
+
+# binding.pry
+
+def calculator(operator, num1, num2)
+  if operator == "+"
+    puts (num1 + num2)
+  elsif operator == "-"
+    puts (num1 - num2)
+  elsif operator == "*"
+    puts (num1 * num2)
+  elsif operator == "/"
+    puts (num1 / num2)
   else
-    num
+    puts "Invalid operator!"
   end
 end
 
+
 binding.pry
-
-# def calculator(operation, num1, num2)
-#   your code here
-# end
-
