@@ -37,3 +37,4 @@ owner = case dog
         when "cuddly" then "Snuggling."
         else "Reading newspaper."
         end
+
